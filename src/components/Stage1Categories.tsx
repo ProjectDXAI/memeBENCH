@@ -167,42 +167,43 @@ export default function Stage1Categories() {
           </div>
         </div>
 
-        {/* Insects Domination Callout */}
-        <div className="mt-8 mii-card p-6 border-l-4 border-[#2ecc71]">
-          <h3 className="text-xl font-bold text-[#2ecc71] mb-3 uppercase tracking-wider">
-            The Insect Surprise
-          </h3>
-          <p className="text-white text-lg leading-relaxed mb-4">
-            You&apos;d expect cute animals like otters and narwhals to win. Instead, <span className="text-[#2ecc71] font-bold">insects dominate</span>.
-            In the final Stage 3 rankings, ANT is #1 (15.8%) and MANTIS is #3 (14.8%). They beat OTTER (#6, 13.1%),
-            NARWHAL (#5, 13.2%), and every other charismatic animal. This holds across <span className="font-bold">all four models</span>.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
-              <div className="text-xs font-bold uppercase tracking-wider text-[#2ecc71] mb-1">GPT-5.4</div>
-              <div className="text-white font-bold">ANT #1 (20.5%)</div>
-              <div className="text-white/70 text-sm">MANTIS #5 (14.5%)</div>
-            </div>
-            <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
-              <div className="text-xs font-bold uppercase tracking-wider text-[#8e44ad] mb-1">Claude</div>
-              <div className="text-white font-bold">MANTIS #1 (17.3%)</div>
-              <div className="text-white/70 text-sm">ANT #2 (17.0%)</div>
-            </div>
-            <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
-              <div className="text-xs font-bold uppercase tracking-wider text-[#2980b9] mb-1">Qwen</div>
-              <div className="text-white font-bold">MANTIS #3 (16.8%)</div>
-              <div className="text-white/70 text-sm">ANT #5 (14.2%)</div>
-            </div>
-            <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
-              <div className="text-xs font-bold uppercase tracking-wider text-[#e67e22] mb-1">Grok</div>
-              <div className="text-white font-bold">ANT #3 (11.5%)</div>
-              <div className="text-white/70 text-sm">MANTIS #6 (10.5%)</div>
-            </div>
+      </div>
+
+      {/* Insects Domination Callout — full width, outside the grid */}
+      <div className="mt-8 mii-card p-6 border-l-4 border-[#2ecc71]">
+        <h3 className="text-xl font-bold text-[#2ecc71] mb-3 uppercase tracking-wider">
+          The Insect Surprise
+        </h3>
+        <p className="text-white text-lg leading-relaxed mb-4 max-w-3xl">
+          You&apos;d expect cute animals like otters and narwhals to win. Instead, <span className="text-[#2ecc71] font-bold">insects dominate</span>.
+          In the final Stage 3 rankings, ANT is #1 (15.8%) and MANTIS is #3 (14.8%). They beat OTTER (#6, 13.1%),
+          NARWHAL (#5, 13.2%), and every other charismatic animal. This holds across <span className="font-bold">all four models</span>.
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
+            <div className="text-xs font-bold uppercase tracking-wider text-[#27ae60] mb-1">GPT-5.4</div>
+            <div className="text-white font-bold">ANT #1 (20.5%)</div>
+            <div className="text-white/70 text-sm">MANTIS #5 (14.5%)</div>
           </div>
-          <p className="text-white/70 text-sm mt-4">
-            Insects beat dolphins, otters, koalas, and narwhals. Nobody expected that.
-          </p>
+          <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
+            <div className="text-xs font-bold uppercase tracking-wider text-[#8e44ad] mb-1">Claude</div>
+            <div className="text-white font-bold">MANTIS #1 (17.3%)</div>
+            <div className="text-white/70 text-sm">ANT #2 (17.0%)</div>
+          </div>
+          <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
+            <div className="text-xs font-bold uppercase tracking-wider text-[#2980b9] mb-1">Qwen</div>
+            <div className="text-white font-bold">MANTIS #3 (16.8%)</div>
+            <div className="text-white/70 text-sm">ANT #5 (14.2%)</div>
+          </div>
+          <div className="text-center p-3 rounded-lg bg-[#0d0d0d] border border-[#2a2a2a]">
+            <div className="text-xs font-bold uppercase tracking-wider text-[#e67e22] mb-1">Grok</div>
+            <div className="text-white font-bold">ANT #3 (11.5%)</div>
+            <div className="text-white/70 text-sm">MANTIS #6 (10.5%)</div>
+          </div>
         </div>
+        <p className="text-white/70 text-sm mt-4">
+          Insects beat dolphins, otters, koalas, and narwhals. Nobody expected that.
+        </p>
       </div>
     </div>
   );

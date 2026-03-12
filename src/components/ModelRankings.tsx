@@ -34,7 +34,7 @@ export default function ModelRankings() {
               <BarChart
                 layout="vertical"
                 data={ranking.tickers}
-                margin={{ top: 0, right: 55, bottom: 0, left: 10 }}
+                margin={{ top: 0, right: 50, bottom: 0, left: 5 }}
               >
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" horizontal={false} />
                 <XAxis type="number" stroke="rgba(255,255,255,0.3)" fontSize={11} tickLine={false} domain={[0, "auto"]} tick={{ fill: "#aaa" }} />

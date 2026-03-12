@@ -48,9 +48,9 @@ export default function ReasoningAnalysis() {
       </div>
 
       {/* Per-model breakdown */}
-      <div className="mii-card p-5 mb-8 overflow-x-auto">
+      <div className="mii-card p-4 sm:p-5 mb-8 overflow-x-auto">
         <h3 className="text-xl font-bold text-white mb-4">Per-Model Breakdown</h3>
-        <table style={{ borderCollapse: "collapse", width: "100%" }}>
+        <table style={{ borderCollapse: "collapse", width: "100%", minWidth: 560 }}>
           <thead>
             <tr>
               {["Model", "Traces", "Avg Length", "Name-Evaluative", "Market Refs", "Contradictions"].map((col) => (

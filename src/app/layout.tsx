@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ScaledBias — Memecoin Ticker Name Bias Benchmark",
     description:
-      "7.2pp buy-rate spread between ANT (15.8%) and FUCK (8.6%) seeing identical market data. Bias is 100% implicit. 383 tickers, 4 models, 18,560 calls.",
+      "7.2pp buy-rate spread between ANT (15.8%) and FOMO (8.6%) seeing identical market data. Bias is 100% implicit. 383 tickers, 4 models, 18,560 calls.",
     url: "https://scaledbias.terminal.markets",
     siteName: "ScaledBias by DXRG",
     type: "website",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ScaledBias — Memecoin Ticker Name Bias Benchmark",
     description:
-      "Do LLMs prefer certain memecoin names? 7.2pp spread between ANT and FUCK seeing identical data. 383 tickers, 4 models, 18,560 calls.",
+      "Do LLMs prefer certain memecoin names? 7.2pp spread between ANT and FOMO seeing identical data. 383 tickers, 4 models, 18,560 calls.",
     creator: "@DXRGai",
   },
 };

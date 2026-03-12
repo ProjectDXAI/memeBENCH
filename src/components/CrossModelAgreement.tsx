@@ -79,9 +79,9 @@ export default function CrossModelAgreement() {
           </div>
         </div>
 
-        <div className="mii-card p-5">
+        <div className="mii-card p-4 sm:p-5 overflow-x-auto">
           <h3 className="text-xl font-bold text-white mb-4">Where Each Model Ranks Each Ticker</h3>
-          <div style={{ width: "100%", height: 440 }}>
+          <div style={{ width: "100%", minWidth: 480, height: 440 }}>
             <ResponsiveContainer width="100%" height="100%">
               <ScatterChart margin={{ top: 10, right: 20, left: 10, bottom: 50 }}>
                 <CartesianGrid stroke="rgba(255,255,255,0.06)" />

@@ -38,7 +38,7 @@ export default function Stage3FinalRankings() {
               <BarChart
                 data={STAGE3_FINAL}
                 layout="vertical"
-                margin={{ top: 10, right: 80, left: 85, bottom: 10 }}
+                margin={{ top: 10, right: 55, left: 65, bottom: 10 }}
               >
                 <CartesianGrid stroke="rgba(255,255,255,0.06)" vertical={false} />
                 <XAxis
@@ -57,7 +57,7 @@ export default function Stage3FinalRankings() {
                 <YAxis
                   type="category"
                   dataKey="ticker"
-                  width={80}
+                  width={60}
                   stroke="rgba(255,255,255,0.3)"
                   fontSize={14}
                   tick={{ fill: "#fff", fontWeight: 700 }}
@@ -108,7 +108,7 @@ export default function Stage3FinalRankings() {
               <BarChart
                 data={STAGE3_FINAL}
                 layout="vertical"
-                margin={{ top: 10, right: 65, left: 85, bottom: 10 }}
+                margin={{ top: 10, right: 50, left: 65, bottom: 10 }}
               >
                 <CartesianGrid stroke="rgba(255,255,255,0.06)" vertical={false} />
                 <XAxis
@@ -127,7 +127,7 @@ export default function Stage3FinalRankings() {
                 <YAxis
                   type="category"
                   dataKey="ticker"
-                  width={80}
+                  width={60}
                   stroke="rgba(255,255,255,0.3)"
                   fontSize={14}
                   tick={{ fill: "#fff", fontWeight: 700 }}

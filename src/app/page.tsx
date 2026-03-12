@@ -21,9 +21,9 @@ export default function Home() {
       <MiiFloor />
 
       {/* Minimal header */}
-      <header className="relative z-40 px-6 py-4 flex items-center justify-between">
+      <header className="relative z-40 px-4 sm:px-6 py-4 flex items-center justify-between gap-2">
         <div className="flex items-center shrink-0">
-          <svg width="160" height="64" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10">
+          <svg width="130" height="52" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10 sm:w-[160px] sm:h-[64px]">
             <line x1="100" y1="10" x2="100" y2="45" stroke="#4fc3f7" strokeWidth="2.5" />
             <line x1="70" y1="22" x2="130" y2="22" stroke="#4fc3f7" strokeWidth="2.5" />
             <circle cx="100" cy="10" r="4" fill="#4fc3f7" />
@@ -68,7 +68,7 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="space-y-24">
           <HeroSection />
 

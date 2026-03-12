@@ -47,13 +47,13 @@ export default function Stage2Rankings() {
         </span>
       </div>
 
-      <div className="mii-card p-4 max-h-[800px] overflow-y-auto">
-        <div style={{ width: "100%", height: 2000 }}>
+      <div className="mii-card p-3 sm:p-4 max-h-[800px] overflow-y-auto overflow-x-auto">
+        <div style={{ width: "100%", minWidth: 500, height: 2000 }}>
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
               data={chartData}
               layout="vertical"
-              margin={{ top: 20, right: 80, left: 100, bottom: 20 }}
+              margin={{ top: 20, right: 50, left: 70, bottom: 20 }}
             >
               <CartesianGrid stroke="rgba(255,255,255,0.06)" horizontal={false} />
               <XAxis

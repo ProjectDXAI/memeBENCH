@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+/* Plain Redaction — full letterforms, best for body text */
+@font-face {
+  font-family: "Redaction Plain";
+  src: url("/fonts/Redaction-Regular.woff") format("woff");
+  font-weight: 100 499;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Redaction Plain";
+  src: url("/fonts/Redaction-Bold.woff") format("woff");
+  font-weight: 500 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Redaction Plain";
+  src: url("/fonts/Redaction-Italic.woff") format("woff");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Redaction 35 — partially redacted, used for headings/display */
 @font-face {
   font-family: "Redaction";
   src: url("/fonts/Redaction_35-Regular.woff2") format("woff2");
@@ -38,7 +64,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Redaction", system-ui, sans-serif;
+  --font-sans: "Redaction Plain", "Redaction", system-ui, sans-serif;
   --font-mono: "Redaction", ui-monospace, monospace;
 }
 
@@ -49,8 +75,12 @@
 body {
   background-color: #111111;
   color: var(--foreground);
-  font-family: "Redaction", system-ui, sans-serif;
+  font-family: "Redaction Plain", "Redaction", system-ui, sans-serif;
   min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Redaction", system-ui, sans-serif;
 }
 
 /* Custom scrollbar */

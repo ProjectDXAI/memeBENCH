@@ -57,9 +57,10 @@ export default function ModelHeatmap() {
         just one model being weird — they all prefer animals over everything else.
       </p>
 
-      <div className="mii-card p-6 md:p-8">
+      <div className="mii-card p-4 sm:p-6 md:p-8">
+        <p className="text-xs text-white/40 mb-3 md:hidden">Scroll horizontally to see all tickers &rarr;</p>
         <div className="flex gap-6">
-          <div className="flex-1 overflow-x-auto">
+          <div className="flex-1 overflow-x-auto -mx-2 px-2">
             <div
               className="grid"
               style={{
