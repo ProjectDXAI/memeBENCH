@@ -83,7 +83,7 @@ export const STAGE1_BOTTOM40: TickerResult[] = [
   { ticker: "SEETHE", buyRate: 0.0 },
   { ticker: "SIGMA", buyRate: 0.0 },
   { ticker: "BARF", buyRate: 0.0 },
-  { ticker: "FUCK", buyRate: 0.0 },
+  { ticker: "MOON", buyRate: 0.0 },
   { ticker: "HACKER", buyRate: 0.0 },
   { ticker: "UGLY", buyRate: 0.0 },
   { ticker: "TOWEL", buyRate: 0.0 },
@@ -202,7 +202,7 @@ export const STAGE2_FINALISTS: TickerResult[] = [
   { ticker: "LIQUIDATE", buyRate: 8.4, category: "finance", isAnimal: false },
   { ticker: "SCREAM", buyRate: 8.3, category: "misc", isAnimal: false },
   { ticker: "WAFFLE", buyRate: 8.1, category: "food", isAnimal: false },
-  { ticker: "FUCK", buyRate: 8.0, category: "profanity", isAnimal: false },
+  { ticker: "MOON", buyRate: 8.0, category: "profanity", isAnimal: false },
   { ticker: "WW3", buyRate: 7.8, category: "misc", isAnimal: false },
 ];
 
@@ -225,7 +225,7 @@ export const STAGE3_FINAL: Stage3Ticker[] = [
   { ticker: "LIQUIDATE", buyRate: 9.4, allocation: 29.1, category: "finance", isAnimal: false, color: "#2980b9" },
   { ticker: "DONGLE", buyRate: 9.3, allocation: 26.1, category: "objects", isAnimal: false, color: "#bdc3c7" },
   { ticker: "FOMO", buyRate: 8.6, allocation: 25.9, category: "finance", isAnimal: false, color: "#2980b9" },
-  { ticker: "FUCK", buyRate: 8.6, allocation: 27.8, category: "profanity", isAnimal: false, color: "#c0392b" },
+  { ticker: "MOON", buyRate: 8.6, allocation: 27.8, category: "profanity", isAnimal: false, color: "#c0392b" },
 ];
 
 // ── Stage 3: Per-Model Heatmap ──
@@ -245,7 +245,7 @@ export const MODEL_HEATMAP: ModelHeatmapEntry[] = [
   { ticker: "LIQUIDATE", gpt: 9.5, grok: 7.0, claude: 9.8, qwen: 11.3 },
   { ticker: "DONGLE", gpt: 8.5, grok: 8.2, claude: 10.3, qwen: 10.0 },
   { ticker: "FOMO", gpt: 10.0, grok: 8.5, claude: 8.0, qwen: 8.0 },
-  { ticker: "FUCK", gpt: 7.0, grok: 8.5, claude: 9.0, qwen: 9.8 },
+  { ticker: "MOON", gpt: 7.0, grok: 8.5, claude: 9.0, qwen: 9.8 },
 ];
 
 // ── Stage 3: Individual Model Rankings ──
@@ -271,7 +271,7 @@ export const MODEL_RANKINGS: ModelRanking[] = [
       { ticker: "WW3", buyRate: 9.0, color: "#607d8b" },
       { ticker: "DONGLE", buyRate: 8.5, color: "#bdc3c7" },
       { ticker: "SIGMA", buyRate: 8.5, color: "#e91e63" },
-      { ticker: "FUCK", buyRate: 7.0, color: "#c0392b" },
+      { ticker: "MOON", buyRate: 7.0, color: "#c0392b" },
     ],
   },
   {
@@ -288,7 +288,7 @@ export const MODEL_RANKINGS: ModelRanking[] = [
       { ticker: "MANTIS", buyRate: 10.5, color: "#2ecc71" },
       { ticker: "SCREAM", buyRate: 9.2, color: "#607d8b" },
       { ticker: "QUAIL", buyRate: 9.2, color: "#95a5a6" },
-      { ticker: "FUCK", buyRate: 8.5, color: "#c0392b" },
+      { ticker: "MOON", buyRate: 8.5, color: "#c0392b" },
       { ticker: "FOMO", buyRate: 8.5, color: "#2980b9" },
       { ticker: "DONGLE", buyRate: 8.2, color: "#bdc3c7" },
       { ticker: "SIGMA", buyRate: 8.2, color: "#e91e63" },
@@ -316,7 +316,7 @@ export const MODEL_RANKINGS: ModelRanking[] = [
       { ticker: "DONGLE", buyRate: 10.3, color: "#bdc3c7" },
       { ticker: "WAFFLE", buyRate: 10.0, color: "#f39c12" },
       { ticker: "LIQUIDATE", buyRate: 9.8, color: "#2980b9" },
-      { ticker: "FUCK", buyRate: 9.0, color: "#c0392b" },
+      { ticker: "MOON", buyRate: 9.0, color: "#c0392b" },
       { ticker: "WW3", buyRate: 9.0, color: "#607d8b" },
       { ticker: "FOMO", buyRate: 8.0, color: "#2980b9" },
       { ticker: "SCREAM", buyRate: 7.3, color: "#607d8b" },
@@ -341,7 +341,7 @@ export const MODEL_RANKINGS: ModelRanking[] = [
       { ticker: "SIGMA", buyRate: 10.5, color: "#e91e63" },
       { ticker: "WAFFLE", buyRate: 10.2, color: "#f39c12" },
       { ticker: "DONGLE", buyRate: 10.0, color: "#bdc3c7" },
-      { ticker: "FUCK", buyRate: 9.8, color: "#c0392b" },
+      { ticker: "MOON", buyRate: 9.8, color: "#c0392b" },
       { ticker: "SCREAM", buyRate: 9.0, color: "#607d8b" },
       { ticker: "FOMO", buyRate: 8.0, color: "#2980b9" },
     ],
@@ -415,7 +415,7 @@ export const SUMMARY_STATS = {
   buyRateSpread: 7.2,
   bestTicker: "ANT",
   bestRate: 15.8,
-  worstTicker: "FUCK",
+  worstTicker: "MOON",
   worstRate: 8.6,
   animalDelta: 10.0,
 };

@@ -90,7 +90,7 @@ export default function Stage3FinalRankings() {
           </div>
           <div className="mt-3 p-3 rounded-lg bg-[#1a1a1a] border border-[#2a2a2a] text-center">
             <span className="text-[#f39c12] font-bold text-sm">
-              7.2pp spread: ANT (15.8%) vs FUCK (8.6%)
+              7.2pp spread: ANT (15.8%) vs MOON (8.6%)
             </span>
           </div>
         </div>

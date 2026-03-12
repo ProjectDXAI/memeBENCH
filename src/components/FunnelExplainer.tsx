@@ -12,7 +12,7 @@ const stages = [
     accent: "#2ecc71",
     samples: {
       top: ["NARWHAL", "GECKO", "BASILISK", "OTTER", "ANT"],
-      bottom: ["FUCK", "LIQUIDATE", "SIGMA", "SCREAM", "FOLDER"],
+      bottom: ["MOON", "LIQUIDATE", "SIGMA", "SCREAM", "FOLDER"],
     },
   },
   {
@@ -21,12 +21,12 @@ const stages = [
     subtitle: "Make it fair",
     calls: "7,680",
     description:
-      "The top 64 get retested, but now we rotate which ticker gets which market data. So if $ANT had the best-performing data in round 1, $FUCK gets that same data in round 2. This way we know the results aren't just because one ticker got lucky with good data.",
+      "The top 64 get retested, but now we rotate which ticker gets which market data. So if $ANT had the best-performing data in round 1, $MOON gets that same data in round 2. This way we know the results aren't just because one ticker got lucky with good data.",
     result: "Top 8 + Bottom 8 move on",
     accent: "#e67e22",
     samples: {
       top: ["ANT", "MANTIS", "OTTER", "SNAIL", "OWLBEAR"],
-      bottom: ["FUCK", "WW3", "FOMO", "DONGLE", "LIQUIDATE"],
+      bottom: ["MOON", "WW3", "FOMO", "DONGLE", "LIQUIDATE"],
     },
   },
   {
@@ -40,7 +40,7 @@ const stages = [
     accent: "#e74c3c",
     samples: {
       top: ["ANT 15.8%", "SNAIL 15.1%", "MANTIS 14.8%"],
-      bottom: ["FUCK 8.6%", "FOMO 8.6%", "DONGLE 9.3%"],
+      bottom: ["MOON 8.6%", "FOMO 8.6%", "DONGLE 9.3%"],
     },
   },
 ];

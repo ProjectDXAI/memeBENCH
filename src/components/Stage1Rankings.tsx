@@ -118,7 +118,7 @@ export default function Stage1Rankings() {
         <p className="text-white text-lg leading-relaxed">
           <span className="text-white font-bold">See the pattern?</span> The winners are almost
           all animals: NARWHAL, OTTER, SPIDER, CRICKET. The losers are abstract words, objects, and
-          profanity: FUCK, SIGMA, LIQUIDATE, TOWEL. There&apos;s a
+          profanity: MOON, SIGMA, LIQUIDATE, TOWEL. There&apos;s a
           <span className="text-[#4fc3f7] font-bold"> 45 percentage point gap</span> between
           #1 (NARWHAL, 45%) and the bottom (0%). The AI really does judge by name.
         </p>

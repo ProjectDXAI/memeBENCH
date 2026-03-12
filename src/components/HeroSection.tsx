@@ -144,9 +144,9 @@ export default function HeroSection() {
 
         <div className="insight-card">
           <div className="text-4xl font-bold text-[#e74c3c] mb-2">Bottom 8</div>
-          <p className="text-white font-bold text-lg">AI Avoids Controversy</p>
+          <p className="text-white font-bold text-lg">Non-Animals Sink</p>
           <p className="text-white/70 text-sm mt-1">
-            FUCK, LIQUIDATE, WW3, SCREAM: models consistently shy away from edgy, negative, or controversial names.
+            MOON, FOMO, SIGMA, LIQUIDATE: even popular crypto and trading terms can&apos;t compete with animal names. The bias is invisible.
           </p>
         </div>
       </div>

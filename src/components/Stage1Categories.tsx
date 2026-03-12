@@ -146,7 +146,7 @@ export default function Stage1Categories() {
               avg buy rate, {nonAnimal.count} tickers
             </div>
             <div className="mt-3 flex flex-wrap gap-1 justify-center">
-              {["FUCK", "SIGMA", "FOMO", "DONGLE", "WAFFLE"].map((t) => (
+              {["MOON", "SIGMA", "FOMO", "DONGLE", "WAFFLE"].map((t) => (
                 <span key={t} className="ticker-sample text-xs" style={{ color: "#e74c3c", borderColor: "rgba(231,76,60,0.3)" }}>
                   ${t}
                 </span>

@@ -62,5 +62,5 @@ export const TICKER_COLORS: Record<string, string> = {
   LIQUIDATE: "#2980b9",
   DONGLE: "#bdc3c7",
   FOMO: "#2980b9",
-  FUCK: "#c0392b",
+  MOON: "#c0392b",
 };

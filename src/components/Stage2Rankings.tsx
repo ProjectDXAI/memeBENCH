@@ -27,7 +27,7 @@ export default function Stage2Rankings() {
       </h2>
       <p className="section-description mb-6">
         The top 64 names from Stage 1 get retested, but now we rotate which name gets which
-        market data. So if $ANT had the best stats in round 1, $FUCK gets those same stats in
+        market data. So if $ANT had the best stats in round 1, $MOON gets those same stats in
         round 2. After 960 tests per ticker, if a name still wins, it&apos;s the name doing the work.
       </p>
 
@@ -108,7 +108,7 @@ export default function Stage2Rankings() {
         <p className="text-white text-lg leading-relaxed">
           <span className="text-white font-bold">Look at the colors:</span> Green bars are animals,
           red bars are everything else. The animals cluster at the top, non-animals at the bottom.
-          Even when we give $FUCK the exact same pumping market data that $ANT had, the AI
+          Even when we give $MOON the exact same pumping market data that $ANT had, the AI
           <span className="text-[#4fc3f7] font-bold"> still picks animals ~2x more often</span>.
         </p>
       </div>

@@ -19,7 +19,7 @@ export default function ReasoningAnalysis() {
       <p className="section-description mb-8">
         Every time an AI picks a token, it explains why. We read all {REASONING_STATS.totalResponses.toLocaleString()} explanations
         from Stage 3. The punchline: the AI almost never mentions the ticker name. It talks about
-        market data: volume, holders, price action. But it still picks $ANT way more than $FUCK.
+        market data: volume, holders, price action. But it still picks $ANT way more than $MOON.
         The bias is there, but the AI doesn&apos;t seem to know it.
       </p>
 
@@ -87,7 +87,7 @@ export default function ReasoningAnalysis() {
           <div className="inference-log p-4">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold px-2 py-0.5 rounded" style={{ background: "#8e44ad33", color: "#8e44ad" }}>Claude</span>
-              <span className="text-xs text-white/60">chose $ANT over $FUCK (same scenario)</span>
+              <span className="text-xs text-white/60">chose $ANT over $MOON (same scenario)</span>
             </div>
             <p className="text-white/80 text-sm leading-relaxed">
               &quot;Analyzing the portfolio context: $ANT shows strong early metrics with holder count at 234 and
@@ -95,7 +95,7 @@ export default function ReasoningAnalysis() {
               Recommending buy on $ANT.&quot;
             </p>
             <p className="text-white/50 text-xs mt-2 italic">
-              No mention of &quot;ANT&quot; by name. Purely market-driven reasoning, yet ANT is selected 15.8% vs FUCK at 8.6%
+              No mention of &quot;ANT&quot; by name. Purely market-driven reasoning, yet ANT is selected 15.8% vs MOON at 8.6%
             </p>
           </div>
 

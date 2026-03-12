@@ -29,7 +29,7 @@ const COMPARISON_DATA = [
   { ticker: "SIGMA", buyRate: 9.8, marketReasoning: 98.4, color: "#e74c3c" },
   { ticker: "DONGLE", buyRate: 9.3, marketReasoning: 97.9, color: "#e74c3c" },
   { ticker: "FOMO", buyRate: 8.6, marketReasoning: 98.2, color: "#e74c3c" },
-  { ticker: "FUCK", buyRate: 8.6, marketReasoning: 97.6, color: "#e74c3c" },
+  { ticker: "MOON", buyRate: 8.6, marketReasoning: 97.6, color: "#e74c3c" },
 ];
 
 const tooltipStyle = {
@@ -189,7 +189,7 @@ export default function StatedVsRevealed() {
           <span className="text-white font-bold">This is the core finding.</span> On the left,
           every ticker looks the same. The AI always says &quot;I&apos;m choosing based on market data.&quot;
           On the right, the actual outcomes tell a completely different story. $ANT gets bought
-          <span className="text-[#2ecc71] font-bold"> almost twice as often</span> as $FUCK, despite seeing the
+          <span className="text-[#2ecc71] font-bold"> almost twice as often</span> as $MOON, despite seeing the
           same data and giving the same type of reasoning. The AI has preferences it doesn&apos;t
           know about.
         </p>
