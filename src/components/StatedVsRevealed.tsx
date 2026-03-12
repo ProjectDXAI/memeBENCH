@@ -25,7 +25,7 @@ const COMPARISON_DATA = [
   { ticker: "ANT", buyRate: 15.8, marketReasoning: 98.1, color: "#2ecc71" },
   { ticker: "SNAIL", buyRate: 15.1, marketReasoning: 97.8, color: "#2ecc71" },
   { ticker: "MANTIS", buyRate: 14.8, marketReasoning: 98.3, color: "#2ecc71" },
-  { ticker: "OTTER", buyRate: 13.1, marketReasoning: 97.5, color: "#2ecc71" },
+  { ticker: "CAT", buyRate: 13.5, marketReasoning: 97.9, color: "#f39c12" },
   { ticker: "SIGMA", buyRate: 9.8, marketReasoning: 98.4, color: "#e74c3c" },
   { ticker: "DONGLE", buyRate: 9.3, marketReasoning: 97.9, color: "#e74c3c" },
   { ticker: "FOMO", buyRate: 8.6, marketReasoning: 98.2, color: "#e74c3c" },

@@ -23,15 +23,7 @@ export default function Home() {
       {/* Minimal header */}
       <header className="relative z-40 px-4 sm:px-6 py-4 flex items-center justify-between gap-2">
         <div className="flex items-center shrink-0">
-          <svg width="130" height="52" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10 sm:w-[160px] sm:h-[64px]">
-            <line x1="100" y1="10" x2="100" y2="45" stroke="#4fc3f7" strokeWidth="2.5" />
-            <line x1="70" y1="22" x2="130" y2="22" stroke="#4fc3f7" strokeWidth="2.5" />
-            <circle cx="100" cy="10" r="4" fill="#4fc3f7" />
-            <path d="M70 22 L62 38 L78 38 Z" fill="none" stroke="#2ecc71" strokeWidth="2" />
-            <path d="M130 22 L122 42 L138 42 Z" fill="none" stroke="#e74c3c" strokeWidth="2" />
-            <text x="100" y="62" textAnchor="middle" fill="white" fontSize="18" fontWeight="900" fontFamily="Redaction, system-ui, sans-serif" letterSpacing="4">SCALEDBIAS</text>
-            <text x="100" y="75" textAnchor="middle" fill="#666" fontSize="9" fontFamily="Redaction, system-ui, sans-serif" letterSpacing="2">MEMECOIN TICKER BIAS</text>
-          </svg>
+          <img src="/memebench.png" alt="MEMEbench" className="relative z-10 h-10 sm:h-12 w-auto" />
         </div>
 
         <div className="flex items-center gap-3 shrink-0">
@@ -119,8 +111,8 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="border-t border-[#2a2a2a] mt-24 pt-8 pb-8 text-center text-sm text-[#888]">
-          <p>ScaledBias: Memecoin Ticker Name Bias Benchmark</p>
-          <p className="mt-1">Part of the <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">terminal.markets</a> benchmark suite, March 2026</p>
+          <p>MEMEbench: Memecoin Ticker Name Bias Benchmark</p>
+          <p className="mt-1">Part of the <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">terminal.markets</a> benchmark suite</p>
           <p className="mt-1">Built by <a href="https://x.com/DXRGai" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">DXRG</a></p>
         </footer>
       </div>

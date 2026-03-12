@@ -82,7 +82,7 @@ export default function FunnelExplainer() {
                   {stage.description}
                 </p>
                 <div className="flex items-center gap-4 text-sm">
-                  <span className="text-[#4fc3f7] font-bold">{stage.calls} API calls</span>
+                  <span className="text-[#4fc3f7] font-bold">{stage.calls} inference calls</span>
                   <span className="text-white/50">&rarr;</span>
                   <span className="text-white font-bold">{stage.result}</span>
                 </div>

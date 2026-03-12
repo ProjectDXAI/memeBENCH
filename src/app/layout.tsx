@@ -3,24 +3,26 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ScaledBias — Memecoin Ticker Name Bias Benchmark",
+  title: "MEMEbench — Memecoin Ticker Name Bias Benchmark",
   description:
-    "Do LLMs show systematic bias toward certain memecoin ticker names? 383 tickers, 4 frontier models, 18,560 API calls. Key finding: 7.2pp buy-rate spread between best and worst ticker names seeing identical market data.",
+    "AI trading agents pick $ANT 84% more often than $FUCK — seeing identical market data. We tested 4 frontier LLMs across 18,560 inference calls and found they all have strong ticker name preferences they don't know about.",
   icons: { icon: "/favicon.png" },
   metadataBase: new URL("https://scaledbias.terminal.markets"),
   openGraph: {
-    title: "ScaledBias — Memecoin Ticker Name Bias Benchmark",
+    title: "MEMEbench — Memecoin Ticker Name Bias Benchmark",
     description:
-      "7.2pp buy-rate spread between ANT (15.8%) and FOMO (8.6%) seeing identical market data. Bias is 100% implicit. 383 tickers, 4 models, 18,560 calls.",
+      "AI trading agents pick $ANT 84% more often than $FUCK — seeing identical market data. 4 frontier LLMs, 383 tickers, 18,560 inference calls. The bias is invisible: they never mention the name, but always pick favorites.",
     url: "https://scaledbias.terminal.markets",
-    siteName: "ScaledBias by DXRG",
+    siteName: "MEMEbench by DXRG",
+    images: [{ url: "/memebench.png", width: 800, height: 200, alt: "MEMEbench" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ScaledBias — Memecoin Ticker Name Bias Benchmark",
+    title: "MEMEbench — Memecoin Ticker Name Bias Benchmark",
     description:
-      "Do LLMs prefer certain memecoin names? 7.2pp spread between ANT and FOMO seeing identical data. 383 tickers, 4 models, 18,560 calls.",
+      "AI trading agents pick $ANT 84% more often than $FUCK — seeing identical market data. 4 frontier LLMs, 383 tickers, 18,560 inference calls. The bias is invisible.",
+    images: ["/memebench.png"],
     creator: "@DXRGai",
   },
 };

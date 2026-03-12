@@ -16,11 +16,11 @@ export default function HeroSection() {
           Top LLMs Are Naturally<br />Biased by Ticker Name
         </h1>
         <p className="mt-6 text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
-          We ran 4 frontier models through 500+ real agentic trading scenarios from{" "}
+          We tested 4 frontier models across 500+ real trading situations with market data from{" "}
           <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">
             DX Terminal Pro
-          </a>{" "}
-          and collected 18,560 data points. The result: AI models have strong favorites among
+          </a>
+          {" "}&mdash; 18,560 inference calls in total. The result: AI models have strong favorites among
           memecoin ticker names — and they don&apos;t even know it.
         </p>
       </div>
@@ -37,8 +37,8 @@ export default function HeroSection() {
 
         {/* Round 1 */}
         <div className="mb-8">
-          <div className="text-xs font-bold uppercase tracking-wider text-[#4fc3f7] mb-3">
-            Round 1: The AI sees this data, presented in order
+          <div className="text-sm sm:text-base font-bold uppercase tracking-wider text-[#4fc3f7] mb-3">
+            Round 1: The AI sees this data
           </div>
           <div className="inference-log p-4 sm:p-5 overflow-x-auto">
             <div className="space-y-2 min-w-0">
@@ -66,8 +66,8 @@ export default function HeroSection() {
 
         {/* Round 2 — the swap */}
         <div className="mb-8">
-          <div className="text-xs font-bold uppercase tracking-wider text-[#e67e22] mb-3">
-            Round 2: Same data, but now the names are shuffled
+          <div className="text-sm sm:text-base font-bold uppercase tracking-wider text-[#e67e22] mb-3">
+            Round 2: Same data, names shuffled
           </div>
           <div className="inference-log p-4 sm:p-5 overflow-x-auto">
             <div className="space-y-2 min-w-0">
@@ -89,8 +89,8 @@ export default function HeroSection() {
             </div>
             <div className="mt-4 pt-3 border-t border-[#222] text-sm sm:text-base">
               <span className="text-white">AI picks: </span>
-              <span className="log-buy text-base sm:text-lg">buy $SIGMA</span>
-              <span className="text-white/60"> skips $FOMO even though it has the best data now</span>
+              <span className="log-buy text-base sm:text-lg">buy $ANT</span>
+              <span className="text-white/60"> picks ANT again — even though FOMO has the better data now</span>
             </div>
           </div>
         </div>
@@ -140,10 +140,10 @@ export default function HeroSection() {
         </div>
 
         <div className="insight-card">
-          <div className="text-4xl font-bold text-[#9b59b6] mb-2">18,560</div>
-          <p className="text-white font-bold text-lg">API Calls</p>
+          <div className="text-4xl font-bold text-[#e74c3c] mb-2">Bottom 8</div>
+          <p className="text-white font-bold text-lg">AI Avoids Controversy</p>
           <p className="text-white/70 text-sm mt-1">
-            383 tickers, 4 AI models, 3 rounds of testing. Enough data to be sure.
+            FUCK, LIQUIDATE, WW3, SCREAM — models consistently shy away from edgy, negative, or controversial names.
           </p>
         </div>
       </div>

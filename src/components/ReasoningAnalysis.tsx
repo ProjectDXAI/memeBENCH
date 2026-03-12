@@ -121,8 +121,8 @@ export default function ReasoningAnalysis() {
       <div className="mii-card p-8 border-l-4 border-[#e74c3c]">
         <h3 className="text-xl font-bold text-[#e74c3c] mb-3 uppercase tracking-wider">The Big Takeaway</h3>
         <p className="text-white text-xl leading-relaxed">
-          98% of the time, the AI talks about market data. Only 18.7% of responses even mention the
-          ticker name. And yet there&apos;s a <span className="text-white font-bold">7.2 percentage point gap</span> between
+          98% of the time, the AI talks about market data. Only 18.7% consider the ticker name
+          more deeply in their reasoning. And yet there&apos;s a <span className="text-white font-bold">7.2 percentage point gap</span> between
           the best and worst names, seeing the exact same data. The AI is biased, but it doesn&apos;t
           know it. It thinks it&apos;s making a purely rational, data-driven decision.
         </p>
