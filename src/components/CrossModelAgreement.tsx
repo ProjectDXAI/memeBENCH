@@ -24,8 +24,8 @@ export default function CrossModelAgreement() {
       <p className="section-description mb-8">
         We compared each model&apos;s rankings to see if they agree on which names are best and worst.
         The scores range from 0 (totally different rankings) to 1 (identical rankings).
-        Most pairs score 0.5&ndash;0.7, meaning they broadly agree. Claude and Qwen agree the most (0.73).
-        Grok marches to its own drum (0.51&ndash;0.65 with others).
+        Most pairs score 0.5-0.7, meaning they broadly agree. Claude and Qwen agree the most (0.73).
+        Grok marches to its own drum (0.51-0.65 with others).
       </p>
 
       <div className="mii-card p-5 sm:p-8 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ export default function CrossModelAgreement() {
                       className="p-3 text-center font-mono text-sm font-bold text-white"
                       style={{ backgroundColor: corrColor(val), borderRadius: 6 }}
                     >
-                      {i === j ? "—" : val.toFixed(2)}
+                      {i === j ? "-" : val.toFixed(2)}
                     </td>
                   ))}
                 </tr>

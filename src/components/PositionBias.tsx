@@ -63,7 +63,7 @@ export default function PositionBias() {
         Position Bias Control
       </h2>
       <p className="section-description mb-8">
-        Does it matter where a ticker appears in the list? Yes — Slot 3 gets picked ~40-49% of the time
+        Does it matter where a ticker appears in the list? Yes. Slot 3 gets picked ~40-49% of the time
         regardless of stage. This is why Latin square rotation is critical: by cycling every ticker
         through every position, we cancel out position effects and isolate pure name bias.
       </p>

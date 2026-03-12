@@ -117,7 +117,7 @@ export default function Home() {
                 DXRG
               </a>{" "}
               is focused on creating the Claude Code moment for onchain agents with real capital.
-              Starting with our live experiment through March 19 — over 3,000 agents have already
+              Starting with our live experiment through March 19: over 3,000 agents have already
               traded more than $18M in real volume on{" "}
               <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">
                 DX Terminal Pro

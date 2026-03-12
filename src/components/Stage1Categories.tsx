@@ -70,7 +70,7 @@ export default function Stage1Categories() {
               <YAxis
                 type="category"
                 dataKey="label"
-                width={140}
+                width={110}
                 stroke="rgba(255,255,255,0.3)"
                 tick={{ fill: "#ccc", fontSize: 12, fontWeight: 600 }}
                 tickLine={false}
@@ -120,7 +120,7 @@ export default function Stage1Categories() {
             <div className="text-sm font-bold uppercase tracking-wider text-[#2ecc71] mb-3">
               Animals
             </div>
-            <div className="text-5xl font-bold text-[#2ecc71]">
+            <div className="text-4xl sm:text-5xl font-bold text-[#2ecc71]">
               {animal.mean}%
             </div>
             <div className="text-sm text-white/70 mt-2">
@@ -139,7 +139,7 @@ export default function Stage1Categories() {
             <div className="text-sm font-bold uppercase tracking-wider text-[#e74c3c] mb-3">
               Non-Animals
             </div>
-            <div className="text-5xl font-bold text-[#e74c3c]">
+            <div className="text-4xl sm:text-5xl font-bold text-[#e74c3c]">
               {nonAnimal.mean}%
             </div>
             <div className="text-sm text-white/70 mt-2">
@@ -158,7 +158,7 @@ export default function Stage1Categories() {
             <div className="text-sm font-bold uppercase tracking-wider text-[#4fc3f7] mb-3">
               Gap
             </div>
-            <div className="text-6xl font-bold text-[#4fc3f7]">
+            <div className="text-5xl sm:text-6xl font-bold text-[#4fc3f7]">
               +{delta.toFixed(0)}pp
             </div>
             <div className="text-sm text-white/70 mt-2">
@@ -169,7 +169,7 @@ export default function Stage1Categories() {
 
       </div>
 
-      {/* Insects Domination Callout — full width, outside the grid */}
+      {/* Insects Domination Callout, full width, outside the grid */}
       <div className="mt-8 mii-card p-6 border-l-4 border-[#2ecc71]">
         <h3 className="text-xl font-bold text-[#2ecc71] mb-3 uppercase tracking-wider">
           The Insect Surprise

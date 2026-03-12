@@ -31,7 +31,7 @@ export default function Methodology() {
             All 383 ticker names were synthetically generated. We purposefully avoided any existing
             memecoin tickers and meme references to prevent the AI from drawing on prior knowledge
             of real tokens. Every name in this benchmark is something the models have never seen
-            in a trading context before — pure name bias, not familiarity.
+            in a trading context before. Pure name bias, not familiarity.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export default function Methodology() {
           <h3 className="text-xl font-bold text-white mb-4">Scale</h3>
           <p className="text-white text-base leading-relaxed">
             18,560 inference calls across 383 ticker names. The final 16 tickers each have
-            1,600 data points. The patterns we found aren&apos;t flukes — they&apos;re
+            1,600 data points. The patterns we found aren&apos;t flukes. They&apos;re
             statistically robust.
           </p>
         </div>
@@ -126,7 +126,7 @@ export default function Methodology() {
           you can&apos;t get from standard benchmarks.
         </p>
         <p className="text-white text-base leading-relaxed mb-4">
-          Trading agents need better and more obscure benchmarks — ones that test the subtle biases
+          Trading agents need better and more obscure benchmarks, ones that test the subtle biases
           and failure modes that only show up in real-world adversarial conditions. MEMEbench is one
           of those experiments. It&apos;s part of the{" "}
           <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">

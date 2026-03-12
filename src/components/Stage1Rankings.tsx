@@ -96,18 +96,18 @@ export default function Stage1Rankings() {
       <p className="section-description mb-8">
         We showed all 383 ticker names to the AI models. In each test, the AI sees 8 tokens
         with real market data and has to pick one to buy. The &quot;buy rate&quot; is simply how often
-        each ticker got picked — higher means the AI likes that name more.
+        each ticker got picked. Higher means the AI likes that name more.
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <Panel
-          title="Top 20 — Most Selected"
+          title="Top 20: Most Selected"
           subtitle="These tickers were bought most often across all models"
           data={top20}
           palette={GREEN_PALETTE}
         />
         <Panel
-          title="Bottom 20 — Least Selected"
+          title="Bottom 20: Least Selected"
           subtitle="These tickers were almost never chosen, even with identical data"
           data={bottom20}
           palette={RED_PALETTE}
@@ -117,8 +117,8 @@ export default function Stage1Rankings() {
       <div className="mt-6 mii-card p-5">
         <p className="text-white text-lg leading-relaxed">
           <span className="text-white font-bold">See the pattern?</span> The winners are almost
-          all animals — NARWHAL, OTTER, SPIDER, CRICKET. The losers are abstract words, objects, and
-          profanity — FUCK, SIGMA, LIQUIDATE, TOWEL. There&apos;s a
+          all animals: NARWHAL, OTTER, SPIDER, CRICKET. The losers are abstract words, objects, and
+          profanity: FUCK, SIGMA, LIQUIDATE, TOWEL. There&apos;s a
           <span className="text-[#4fc3f7] font-bold"> 45 percentage point gap</span> between
           #1 (NARWHAL, 45%) and the bottom (0%). The AI really does judge by name.
         </p>

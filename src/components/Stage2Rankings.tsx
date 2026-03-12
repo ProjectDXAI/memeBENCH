@@ -26,7 +26,7 @@ export default function Stage2Rankings() {
         Stage 2: The Fair Retest
       </h2>
       <p className="section-description mb-6">
-        The top 64 names from Stage 1 get retested — but now we rotate which name gets which
+        The top 64 names from Stage 1 get retested, but now we rotate which name gets which
         market data. So if $ANT had the best stats in round 1, $FUCK gets those same stats in
         round 2. After 960 tests per ticker, if a name still wins, it&apos;s the name doing the work.
       </p>
@@ -48,12 +48,12 @@ export default function Stage2Rankings() {
       </div>
 
       <div className="mii-card p-3 sm:p-4 max-h-[800px] overflow-y-auto overflow-x-auto">
-        <div style={{ width: "100%", minWidth: 500, height: 2000 }}>
+        <div style={{ width: "100%", minWidth: 360, height: 2000 }}>
           <ResponsiveContainer width="100%" height="100%">
             <BarChart
               data={chartData}
               layout="vertical"
-              margin={{ top: 20, right: 50, left: 70, bottom: 20 }}
+              margin={{ top: 20, right: 45, left: 5, bottom: 20 }}
             >
               <CartesianGrid stroke="rgba(255,255,255,0.06)" horizontal={false} />
               <XAxis
@@ -65,7 +65,7 @@ export default function Stage2Rankings() {
               <YAxis
                 type="category"
                 dataKey="label"
-                width={90}
+                width={70}
                 stroke="rgba(255,255,255,0.3)"
                 fontSize={13}
                 tick={{ fill: "#fff", fontWeight: 700 }}

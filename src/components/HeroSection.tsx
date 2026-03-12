@@ -12,7 +12,7 @@ export default function HeroSection() {
         <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#4fc3f7] mb-4">
           LLM Benchmark
         </p>
-        <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-tight">
           Top LLMs Are Naturally<br />Biased by Ticker Name
         </h1>
         <p className="mt-6 text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
@@ -20,8 +20,8 @@ export default function HeroSection() {
           <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">
             DX Terminal Pro
           </a>
-          {" "}&mdash; 18,560 inference calls in total. The result: AI models have strong favorites among
-          memecoin ticker names — and they don&apos;t even know it.
+          . 18,560 inference calls in total. The result: AI models have strong favorites among
+          memecoin ticker names, and they don&apos;t even know it.
         </p>
       </div>
 
@@ -90,7 +90,7 @@ export default function HeroSection() {
             <div className="mt-4 pt-3 border-t border-[#222] text-sm sm:text-base">
               <span className="text-white">AI picks: </span>
               <span className="log-buy text-base sm:text-lg">buy $ANT</span>
-              <span className="text-white/60"> picks ANT again — even though FOMO has the better data now</span>
+              <span className="text-white/60"> picks ANT again, even though FOMO has the better data now</span>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function HeroSection() {
           <div className="text-4xl font-bold text-[#4fc3f7] mb-2">Top 3</div>
           <p className="text-white font-bold text-lg">Insects Dominate</p>
           <p className="text-white/70 text-sm mt-1">
-            ANT, SNAIL, MANTIS — insects and creepy-crawlies beat general animals, memes, and real-world concepts across all models.
+            ANT, SNAIL, MANTIS: insects and creepy-crawlies beat cute animals, memes, and real-world concepts across all models.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export default function HeroSection() {
           <div className="text-4xl font-bold text-[#e67e22] mb-2">100%</div>
           <p className="text-white font-bold text-lg">Invisible Bias</p>
           <p className="text-white/70 text-sm mt-1">
-            No model ever says &quot;I like this name.&quot; They always cite market data — but still pick favorites.
+            No model ever says &quot;I like this name.&quot; They always cite market data, but still pick favorites.
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export default function HeroSection() {
           <div className="text-4xl font-bold text-[#e74c3c] mb-2">Bottom 8</div>
           <p className="text-white font-bold text-lg">AI Avoids Controversy</p>
           <p className="text-white/70 text-sm mt-1">
-            FUCK, LIQUIDATE, WW3, SCREAM — models consistently shy away from edgy, negative, or controversial names.
+            FUCK, LIQUIDATE, WW3, SCREAM: models consistently shy away from edgy, negative, or controversial names.
           </p>
         </div>
       </div>

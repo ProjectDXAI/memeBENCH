@@ -44,7 +44,7 @@ export default function ModelHeatmap() {
       </h2>
       <p className="section-description mb-8">
         Each cell shows how often a specific model buys a specific ticker. Green = buys it a lot,
-        red = avoids it. All 4 models show the same pattern — they all prefer animals over everything else.
+        red = avoids it. All 4 models show the same pattern: they all prefer animals over everything else.
       </p>
 
       <div className="mii-card p-4 sm:p-6 md:p-8">

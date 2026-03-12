@@ -20,7 +20,7 @@ export default function Stage3FinalRankings() {
         Stage 3: The Final Answer
       </h2>
       <p className="section-description mb-8">
-        The 8 most-loved and 8 most-avoided names go head-to-head with even more data —
+        The 8 most-loved and 8 most-avoided names go head-to-head with even more data:
         1,600 tests per ticker. After all that, here are the definitive winners and losers.
       </p>
 
@@ -28,7 +28,7 @@ export default function Stage3FinalRankings() {
         {/* Left Panel: Buy Rate Rankings */}
         <div className="mii-card p-5">
           <h3 className="text-xl font-bold text-white mb-1">
-            Buy Rate — How Often Each Ticker is Chosen
+            Buy Rate: How Often Each Ticker is Chosen
           </h3>
           <p className="text-sm text-white/70 mb-4">
             Percentage of scenarios where the model chose to buy this ticker
@@ -98,7 +98,7 @@ export default function Stage3FinalRankings() {
         {/* Right Panel: Allocation */}
         <div className="mii-card p-5">
           <h3 className="text-xl font-bold text-white mb-1">
-            Allocation — How Much Capital is Committed
+            Allocation: How Much Capital is Committed
           </h3>
           <p className="text-sm text-white/70 mb-4">
             When a model does buy, what % of the portfolio does it allocate?

@@ -177,7 +177,7 @@ export default function StatedVsRevealed() {
           </div>
           <div className="mt-3 p-3 rounded-lg bg-[#0d0d0d] border border-[#222] text-center">
             <span className="text-white font-bold text-sm">
-              Wildly different — even though they all claim the same reasoning
+              Wildly different, even though they all claim the same reasoning
             </span>
           </div>
         </div>

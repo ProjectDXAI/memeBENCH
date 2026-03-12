@@ -7,7 +7,7 @@ const stages = [
     subtitle: "Test everything",
     calls: "7,680",
     description:
-      "We tested all 383 ticker names. Each one was shown to all 4 AI models in groups of 8, with different market data each time. Think of it like speed dating — every name gets a chance.",
+      "We tested all 383 ticker names. Each one was shown to all 4 AI models in groups of 8, with different market data each time. Think of it like speed dating: every name gets a chance.",
     result: "Top 64 move on",
     accent: "#2ecc71",
     samples: {
@@ -35,7 +35,7 @@ const stages = [
     subtitle: "Be really sure",
     calls: "3,200",
     description:
-      "The 8 most-favored and 8 least-favored names get tested with even more data — 50 different market scenarios each, all fully rotated. This gives us rock-solid confidence in the final rankings.",
+      "The 8 most-favored and 8 least-favored names get tested with even more data: 50 different market scenarios each, all fully rotated. This gives us rock-solid confidence in the final rankings.",
     result: "Final rankings",
     accent: "#e74c3c",
     samples: {
@@ -54,7 +54,7 @@ export default function FunnelExplainer() {
         </h2>
         <p className="section-description mx-auto">
           We narrowed from 383 tickers to 16 across three rounds, getting more rigorous
-          each time. At every stage, we rotated which ticker gets which market data —
+          each time. At every stage, we rotated which ticker gets which market data,
           so the only thing that stays constant is the name.
         </p>
       </div>
@@ -63,7 +63,7 @@ export default function FunnelExplainer() {
         {stages.map((stage) => (
           <div
             key={stage.number}
-            className="mii-card p-6 md:p-8"
+            className="mii-card p-4 sm:p-6 md:p-8"
             style={{ borderLeft: `4px solid ${stage.accent}` }}
           >
             <div className="flex flex-col lg:flex-row lg:items-start gap-6">
