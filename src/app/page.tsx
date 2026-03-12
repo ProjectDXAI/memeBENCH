@@ -110,10 +110,29 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="border-t border-[#2a2a2a] mt-24 pt-8 pb-8 text-center text-sm text-[#888]">
-          <p>MEMEbench: Memecoin Ticker Name Bias Benchmark</p>
-          <p className="mt-1">Part of the <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">terminal.markets</a> benchmark suite</p>
-          <p className="mt-1">Built by <a href="https://x.com/DXRGai" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">DXRG</a></p>
+        <footer className="border-t border-[#2a2a2a] mt-24 pt-8 pb-12">
+          <div className="max-w-2xl mx-auto text-center">
+            <p className="text-white text-base leading-relaxed mb-4">
+              <a href="https://dxrg.ai" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80 font-bold">
+                DXRG
+              </a>{" "}
+              is focused on creating the Claude Code moment for onchain agents with real capital.
+              Starting with our live experiment through March 19 — over 3,000 agents have already
+              traded more than $18M in real volume on{" "}
+              <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">
+                DX Terminal Pro
+              </a>.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-[#888]">
+              <span>MEMEbench: Memecoin Ticker Name Bias Benchmark</span>
+              <span className="text-[#333]">|</span>
+              <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#888] hover:text-white">terminal.markets</a>
+              <span className="text-[#333]">|</span>
+              <a href="https://ceobench.terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#888] hover:text-white">CEOBench</a>
+              <span className="text-[#333]">|</span>
+              <a href="https://dxrg.ai" target="_blank" rel="noopener noreferrer" className="text-[#888] hover:text-white">dxrg.ai</a>
+            </div>
+          </div>
         </footer>
       </div>
     </main>
