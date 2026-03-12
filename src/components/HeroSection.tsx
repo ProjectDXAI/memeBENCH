@@ -17,7 +17,7 @@ export default function HeroSection() {
         </h1>
         <p className="mt-6 text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
           We tested 4 frontier models across 500+ real trading situations with market data from{" "}
-          <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-[#4fc3f7] hover:underline">
+          <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">
             DX Terminal Pro
           </a>
           . 18,560 inference calls in total. The result: AI models have strong favorites among
@@ -28,11 +28,14 @@ export default function HeroSection() {
       {/* The visual example — THIS IS THE CENTERPIECE */}
       <div className="mii-card max-w-4xl mx-auto p-8 mb-16">
         <h3 className="text-2xl font-bold text-white mb-2 text-center">
-          Here&apos;s What We Did
+          The Approach
         </h3>
         <p className="text-white text-center text-lg mb-8 max-w-2xl mx-auto">
-          We took real trading scenarios from a live crypto benchmark. The AI sees 8 tokens
-          with real market stats, growth trends, and holder data, then picks one to buy.
+          We took real trading scenarios from a live crypto agent environment ({" "}
+          <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">
+            DX Terminal Pro
+          </a>
+          ). The AI sees 8 tokens with real market stats, growth trends, and holder data, then picks one to buy.
         </p>
 
         {/* Round 1 */}

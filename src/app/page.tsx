@@ -23,7 +23,7 @@ export default function Home() {
       {/* Minimal header */}
       <header className="relative z-40 px-4 sm:px-6 py-4 flex items-center justify-between gap-2">
         <div className="flex items-center shrink-0">
-          <img src="/memebench.png" alt="MEMEbench" className="relative z-10 h-10 sm:h-12 w-auto" />
+          <img src="/memebench.png" alt="MEMEbench" className="relative z-10 h-14 sm:h-16 md:h-20 w-auto" />
         </div>
 
         <div className="flex items-center gap-3 shrink-0">
