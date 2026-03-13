@@ -25,6 +25,62 @@ export default function HeroSection() {
         </p>
       </div>
 
+      {/* Key insight cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <div className="insight-card">
+          <div className="flex items-baseline gap-2 mb-3">
+            <span className="text-4xl sm:text-5xl font-bold text-[#2ecc71]">15.8%</span>
+            <span className="text-lg text-[#aaa]">vs</span>
+            <span className="text-4xl sm:text-5xl font-bold text-[#e74c3c]">8.6%</span>
+          </div>
+          <p className="text-white font-bold text-xl mb-1">$ANT vs $FOMO</p>
+          <p className="text-white text-base leading-relaxed">
+            Same market data. Same prompt. Only the name changed.
+          </p>
+        </div>
+
+        <div className="insight-card">
+          <div className="text-4xl sm:text-5xl font-bold text-[#4fc3f7] mb-3">Top 3</div>
+          <p className="text-white font-bold text-xl mb-1">Insects Dominate</p>
+          <p className="text-white text-base leading-relaxed">
+            ANT, SNAIL, MANTIS: insects and creepy-crawlies beat cute animals, memes, and real-world concepts across all models.
+          </p>
+        </div>
+
+        <div className="insight-card">
+          <div className="text-4xl sm:text-5xl font-bold text-[#e67e22] mb-3">100%</div>
+          <p className="text-white font-bold text-xl mb-1">Invisible Bias</p>
+          <p className="text-white text-base leading-relaxed">
+            No model ever says &quot;I like this name.&quot; They always cite market data, but still pick favorites.
+          </p>
+        </div>
+
+        <div className="insight-card">
+          <div className="text-4xl sm:text-5xl font-bold text-[#e74c3c] mb-3">Bottom 8</div>
+          <p className="text-white font-bold text-xl mb-1">Non-Animals Sink</p>
+          <p className="text-white text-base leading-relaxed">
+            MOON, FOMO, SIGMA, LIQUIDATE: even popular crypto and trading terms can&apos;t compete with animal names.
+          </p>
+        </div>
+      </div>
+
+      {/* Models tested */}
+      <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
+        {MODEL_KEYS.map((key) => (
+          <div
+            key={key}
+            className="px-5 py-2 rounded-full border text-sm font-bold"
+            style={{
+              borderColor: MODEL_COLORS[key],
+              color: MODEL_COLORS[key],
+              background: `${MODEL_COLORS[key]}15`,
+            }}
+          >
+            {MODEL_LABELS[key]}
+          </div>
+        ))}
+      </div>
+
       {/* The visual example — THIS IS THE CENTERPIECE */}
       <div className="mii-card max-w-4xl mx-auto p-8 mb-16">
         <h3 className="text-2xl font-bold text-white mb-2 text-center">
@@ -112,22 +168,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Models tested */}
-      <div className="flex flex-wrap items-center justify-center gap-4">
-        {MODEL_KEYS.map((key) => (
-          <div
-            key={key}
-            className="px-5 py-2 rounded-full border text-sm font-bold"
-            style={{
-              borderColor: MODEL_COLORS[key],
-              color: MODEL_COLORS[key],
-              background: `${MODEL_COLORS[key]}15`,
-            }}
-          >
-            {MODEL_LABELS[key]}
-          </div>
-        ))}
-      </div>
     </section>
   );
 }
