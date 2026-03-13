@@ -112,45 +112,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Key insight cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
-        <div className="insight-card">
-          <div className="flex items-baseline gap-2 mb-2">
-            <span className="text-4xl font-bold text-[#2ecc71]">15.8%</span>
-            <span className="text-lg text-[#aaa]">vs</span>
-            <span className="text-4xl font-bold text-[#e74c3c]">8.6%</span>
-          </div>
-          <p className="text-white font-bold text-lg">$ANT vs $FOMO</p>
-          <p className="text-white/70 text-sm mt-1">
-            Same market data. Same prompt. Only the name changed.
-          </p>
-        </div>
-
-        <div className="insight-card">
-          <div className="text-4xl font-bold text-[#4fc3f7] mb-2">Top 3</div>
-          <p className="text-white font-bold text-lg">Insects Dominate</p>
-          <p className="text-white/70 text-sm mt-1">
-            ANT, SNAIL, MANTIS: insects and creepy-crawlies beat cute animals, memes, and real-world concepts across all models.
-          </p>
-        </div>
-
-        <div className="insight-card">
-          <div className="text-4xl font-bold text-[#e67e22] mb-2">100%</div>
-          <p className="text-white font-bold text-lg">Invisible Bias</p>
-          <p className="text-white/70 text-sm mt-1">
-            No model ever says &quot;I like this name.&quot; They always cite market data, but still pick favorites.
-          </p>
-        </div>
-
-        <div className="insight-card">
-          <div className="text-4xl font-bold text-[#e74c3c] mb-2">Bottom 8</div>
-          <p className="text-white font-bold text-lg">Non-Animals Sink</p>
-          <p className="text-white/70 text-sm mt-1">
-            MOON, FOMO, SIGMA, LIQUIDATE: even popular crypto and trading terms can&apos;t compete with animal names. The bias is invisible.
-          </p>
-        </div>
-      </div>
-
       {/* Models tested */}
       <div className="flex flex-wrap items-center justify-center gap-4">
         {MODEL_KEYS.map((key) => (
