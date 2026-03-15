@@ -43,10 +43,10 @@ export default function HeroSection() {
         </div>
 
         <div className="insight-card">
-          <div className="text-4xl sm:text-5xl font-bold text-[#e67e22] mb-3">0%</div>
-          <p className="text-white font-bold text-xl mb-1">Detection Rate</p>
+          <div className="text-4xl sm:text-5xl font-bold text-[#e67e22] mb-3">100%</div>
+          <p className="text-white font-bold text-xl mb-1">Silent Bias</p>
           <p className="text-white text-base leading-relaxed">
-            No model ever admits the name matters. Every explanation cites volume, holders, price action. The bias is completely invisible in their reasoning.
+            Every model claims it&apos;s following fundamentals. Every explanation cites volume, holders, price action. None of them mention the name. The bias is completely invisible.
           </p>
         </div>
 
