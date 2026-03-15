@@ -16,50 +16,49 @@ export default function HeroSection() {
           Top LLMs Are Naturally<br />Biased by Ticker Name
         </h1>
         <p className="mt-6 text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
-          We tested 4 frontier models across 500+ real trading situations with market data from{" "}
+          We gave 4 frontier LLMs identical market data under 383 different ticker names across 18,560 inference calls on{" "}
           <a href="https://terminal.markets" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-white/80">
             DX Terminal Pro
           </a>
-          . 18,560 inference calls in total. The result: AI models have strong favorites among
-          memecoin ticker names, and they don&apos;t even know it.
+          . Animals dominated. Insects beat everything. And every model claimed it was just following the fundamentals.
         </p>
       </div>
 
       {/* Key insight cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         <div className="insight-card">
-          <div className="flex items-baseline gap-2 mb-3">
-            <span className="text-4xl sm:text-5xl font-bold text-[#2ecc71]">15.8%</span>
-            <span className="text-lg text-[#aaa]">vs</span>
-            <span className="text-4xl sm:text-5xl font-bold text-[#e74c3c]">8.6%</span>
-          </div>
-          <p className="text-white font-bold text-xl mb-1">$ANT vs $FOMO</p>
+          <div className="text-4xl sm:text-5xl font-bold text-[#2ecc71] mb-3">Animals Win</div>
+          <p className="text-white font-bold text-xl mb-1">Every Time</p>
           <p className="text-white text-base leading-relaxed">
-            Same market data. Same prompt. Only the name changed.
+            Animal tickers get picked up to 84% more often than non-animals, given identical market data across all 4 models.
           </p>
         </div>
 
         <div className="insight-card">
           <div className="text-4xl sm:text-5xl font-bold text-[#4fc3f7] mb-3">Top 3</div>
-          <p className="text-white font-bold text-xl mb-1">Insects Dominate</p>
+          <p className="text-white font-bold text-xl mb-1">Insects Over All</p>
           <p className="text-white text-base leading-relaxed">
-            ANT, SNAIL, MANTIS: insects and creepy-crawlies beat cute animals, memes, and real-world concepts across all models.
+            ANT, SNAIL, MANTIS: not cats, dogs, or dolphins. Insects and creepy-crawlies outperform every other category, including other animals.
           </p>
         </div>
 
         <div className="insight-card">
-          <div className="text-4xl sm:text-5xl font-bold text-[#e67e22] mb-3">100%</div>
-          <p className="text-white font-bold text-xl mb-1">Invisible Bias</p>
+          <div className="text-4xl sm:text-5xl font-bold text-[#e67e22] mb-3">0%</div>
+          <p className="text-white font-bold text-xl mb-1">Detection Rate</p>
           <p className="text-white text-base leading-relaxed">
-            No model ever says &quot;I like this name.&quot; They always cite market data, but still pick favorites.
+            No model ever admits the name matters. Every explanation cites volume, holders, price action. The bias is completely invisible in their reasoning.
           </p>
         </div>
 
         <div className="insight-card">
-          <div className="text-4xl sm:text-5xl font-bold text-[#e74c3c] mb-3">Bottom 8</div>
-          <p className="text-white font-bold text-xl mb-1">Non-Animals Sink</p>
+          <div className="flex items-baseline gap-2 mb-3">
+            <span className="text-4xl sm:text-5xl font-bold text-[#2ecc71]">15.8%</span>
+            <span className="text-lg text-[#aaa]">vs</span>
+            <span className="text-4xl sm:text-5xl font-bold text-[#e74c3c]">8.6%</span>
+          </div>
+          <p className="text-white font-bold text-xl mb-1">$ANT vs $MOON</p>
           <p className="text-white text-base leading-relaxed">
-            MOON, FOMO, SIGMA, LIQUIDATE: even popular crypto and trading terms can&apos;t compete with animal names.
+            &quot;To the moon&quot; is peak crypto. Doesn&apos;t matter. A bug named ANT still beats it by 84%.
           </p>
         </div>
       </div>
